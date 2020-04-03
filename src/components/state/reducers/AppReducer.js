@@ -5,12 +5,12 @@ import { combineReducers } from 'redux';
 
 // IMPORT REDUCERS
 
-import { FetchZipCodesReducer } from '../reducers/FetchZipCodesReducer';
+import { FetchDirectDriverReducer } from './FetchDirectDriverReducer';
 
 
 // EXPORT APP REDUCER
 
 export const AppReducer = combineReducers({
-    zipCodes: FetchZipCodesReducer,
-    directDriverList: FetchZipCodesReducer
+    zipCodes: FetchDirectDriverReducer,
+    directDriverList: FetchDirectDriverReducer
 });

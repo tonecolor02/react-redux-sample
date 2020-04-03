@@ -1,20 +1,8 @@
-// IMPORT PACKAGE REFERENCES
-
 import React, { Fragment } from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
-// IMPORT PROJECT REFERENCES
-
 import { Header } from '../Header/Header';
-import {DirectDriver} from "../DirectDriver/DirectDriver";
-
-// import {ZipCodeBrowser} from "../DirectDriver/DirectDriver";
-// import { HomePage } from '../pages/HomePage';
-// import { AboutPage } from '../pages/AboutPage';
-// import { ZipCodesPage } from '../pages/ZipCodesPage';
-
-
-// COMPONENT
+import {DirectDriverPage} from "../pages/DirectDriverPage";
 
 export const AppRouter = () => (
     <BrowserRouter>
@@ -22,7 +10,7 @@ export const AppRouter = () => (
             <Header />            
             <Switch>
                 <Route path='/' exact={true} />
-                <Route path='/driver' component={DirectDriver}  />
+                <Route path='/driver' component={DirectDriverPage}  />
                 <Route path='/travel'  />
                 <Redirect to="/" />
             </Switch>

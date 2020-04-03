@@ -29,6 +29,7 @@ const requestConfig = {
 
 export const fetchDirectDriverList = () => {
     // const url = `${API_BASE_URL}/quotes/?filter=${filter}`;
+    const url = `https://api2.a-in.co/v140/both/driver/200310091122895/D200402125150501`;
 
     return new Promise((resolve, reject) => {
 
