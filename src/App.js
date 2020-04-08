@@ -7,8 +7,6 @@ import {Provider} from 'react-redux';
 
 // IMPORT PROJECT REFERENCES
 
-// import { AppRouter } from './routers/AppRouter';
-// import { createAppStore } from './state/stores/createAppStore';
 import {createAppStore} from "./components/state/stores/AppStore";
 import {AppRouter} from "./components/routers/AppRouter";
 
@@ -18,7 +16,7 @@ import {AppRouter} from "./components/routers/AppRouter";
 function App() {
     return (
         <Provider store={createAppStore()}>
-            <div className="container">
+            <div>
                 <AppRouter/>
             </div>
         </Provider>
