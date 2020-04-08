@@ -58,9 +58,7 @@ export default function Navbar() {
     />);
 }
 
-/*
-
-export const Navbar = () => (
+export const OldNavbar = () => (
     <nav className="navbar navbar-expand-lg navbar-light alert-dark">
         <a className="navbar-brand" href="/">
             <i className="fab fa-react fa-2x" style={{color: 'dodgerblue'}}></i>
@@ -90,4 +88,3 @@ export const Navbar = () => (
         </div>
     </nav>
 );
-*/
