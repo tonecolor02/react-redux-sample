@@ -8,7 +8,7 @@ import {Provider} from 'react-redux';
 // IMPORT PROJECT REFERENCES
 
 import {createAppStore} from "./components/state/stores/AppStore";
-import {AppRouter} from "./components/routers/AppRouter";
+import AppRouter from "./components/routers/AppRouter";
 
 
 // COMPONENT

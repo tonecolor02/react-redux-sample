@@ -1,13 +1,12 @@
 // IMPORT DATA FROM STATIC JSON FILE
 
-import zips from './zips.json';
 import axios from 'axios'
 
 // COMPONENT
 
 const simulateError = false;
 
-export const fetchZipCodes = () => {
+/*export const fetchZipCodes = () => {
     fetchDirectDriverList()
     return new Promise((resolve, reject) => {
         // simulate lengthy service call
@@ -19,7 +18,7 @@ export const fetchZipCodes = () => {
             }
         }, 1000);
     });
-};
+};*/
 
 const requestConfig = {
     headers: {

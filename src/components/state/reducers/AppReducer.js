@@ -11,6 +11,5 @@ import { FetchDirectDriverReducer } from './FetchDirectDriverReducer';
 // EXPORT APP REDUCER
 
 export const AppReducer = combineReducers({
-    zipCodes: FetchDirectDriverReducer,
     directDriverList: FetchDirectDriverReducer
 });
