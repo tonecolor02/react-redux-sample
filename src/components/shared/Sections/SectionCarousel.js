@@ -41,7 +41,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      인카 애미 애비 싹다뒤진새끼들
                     </h4>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Somewhere Beyond, United States
+                      존나 하기싫다 진심
                     </h4>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      만든거 또만들고 또만들고 계속만들고 사람새끼들인가
                     </h4>
                   </div>
                 </div>

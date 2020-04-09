@@ -16,7 +16,7 @@ export default function AppRouter(props) {
     const classes = useStyles();
     const {...rest} = props;
     return (<BrowserRouter>
-        <Fragment>
+        <Fragment >
             <Navbar/>
             {/*<OldNavbar />*/}
             <div className={classes.container}>

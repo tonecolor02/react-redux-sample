@@ -10,15 +10,12 @@ import {Provider} from 'react-redux';
 import {createAppStore} from "./components/state/stores/AppStore";
 import AppRouter from "./components/routers/AppRouter";
 
-
 // COMPONENT
 
 function App() {
     return (
         <Provider store={createAppStore()}>
-            <div>
-                <AppRouter/>
-            </div>
+            <AppRouter/>
         </Provider>
     );
 }

@@ -11,31 +11,39 @@ const useStyles = makeStyles((theme) => ({
         '& > *': {
             margin: theme.spacing(3),
         }
+        , textAlign: "center"
     },
     extendedIcon: {
-        marginRight: theme.spacing(1)
+        marginRight: theme.spacing(1),
+    },
+    fab: {
+        width: 160
     }
 }));
 
 export default function FloatingActionButtons() {
     const classes = useStyles();
     return (
-        <div className={classes.root} >
-            <Fab color="primary" aria-label="add">
-                <AddIcon/>
+        <div className={classes.root}>
+            <Fab className={classes.fab} color="primary" aria-label="add" variant="extended">
+                <AddIcon className={classes.extendedIcon}/>
+                자동차 다이렉트
             </Fab>
-            <Fab color="secondary" aria-label="edit">
-                <EditIcon/>
+            <Fab className={classes.fab} color="secondary" aria-label="edit" variant="extended">
+                <EditIcon className={classes.extendedIcon}/>
+                운전자 다이렉트
             </Fab>
             {/*<Fab variant="extended">*/}
-            <Fab color="secondary" aria-label="Navigation">
+            <Fab className={classes.fab} color="secondary" aria-label="Navigation" variant="extended">
                 {/*    <NavigationIcon className={classes.extendedIcon} />
                 Navigate*/}
-                <NavigationIcon/>
+                <NavigationIcon className={classes.extendedIcon}/>
+                여행자 다이렉트
             </Fab>
             {/*<Fab disabled aria-label="like">*/}
-            <Fab aria-label="like">
-                <FavoriteIcon/>
+            <Fab className={classes.fab} aria-label="like" variant="extended">
+                <FavoriteIcon className={classes.extendedIcon}/>
+                몰라씨발
             </Fab>
         </div>
     );

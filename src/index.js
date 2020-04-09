@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import './index.css';
-import './styles/app.scss';
+// import './styles/app.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
@@ -11,7 +11,7 @@ import './styles/app.scss';
 // import "assets/scss/material-kit-react.scss?v=1.8.0";
 
 ReactDOM.render(
-  <React.StrictMode>
+    <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
